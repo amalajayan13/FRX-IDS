@@ -1,0 +1,2 @@
+acc_mean,acc_std,f1_macro_mean,f1_macro_std,f1_weighted_mean,f1_weighted_std,prec_macro_mean,prec_macro_std,rec_macro_mean,rec_macro_std,roc_auc_ovr_macro_mean,roc_auc_ovr_macro_std,fit_s_mean,fit_s_std
+0.9921081109615436,1.2412670766236366e-16,0.9910075088916381,0.0,0.9921141822341232,0.0,0.9907648637736315,1.2412670766236366e-16,0.9912817865567758,0.0,0.9999108458546873,0.0,7.488712279993342,0.9469506349796252

@@ -1,0 +1,19 @@
+{
+  "best_model_after_full_comparison": "lightgbm",
+  "candidate_models_final": [
+    "logreg",
+    "rf",
+    "extratrees",
+    "xgboost",
+    "lightgbm"
+  ],
+  "refit_time_seconds": 7.586259100004099,
+  "trainval_shape": [
+    151546,
+    40
+  ],
+  "test_shape": [
+    37887,
+    40
+  ]
+}

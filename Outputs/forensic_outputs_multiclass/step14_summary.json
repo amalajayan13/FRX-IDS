@@ -1,0 +1,14 @@
+{
+  "best_model": "lightgbm",
+  "case_id": "CASE-20260526-213222",
+  "evidence_log_path": "forensic_outputs_multiclass\\CASE-20260526-213222_evidence_multiclass.jsonl",
+  "hash_algorithm": "SHA-256",
+  "test_samples_evaluated": 37887,
+  "predicted_alerts": 29476,
+  "predicted_normal_samples": 8411,
+  "alerts_retained_for_logging": 500,
+  "prediction_runtime_seconds": 1.668174699996598,
+  "per_alert_shap_runtime_seconds": 2.534081099991454,
+  "hash_chain_verified": true,
+  "first_bad_record": null
+}

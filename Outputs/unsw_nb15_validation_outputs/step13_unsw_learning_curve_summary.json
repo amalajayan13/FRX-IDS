@@ -1,0 +1,15 @@
+{
+  "dataset": "UNSW-NB15",
+  "model": "lightgbm",
+  "scoring": "f1_macro",
+  "cv_folds": 3,
+  "train_sizes": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "learning_curve_time_seconds": 20.12726829998428,
+  "figure_path": "unsw_nb15_validation_outputs\\figures\\unsw_learning_curve_lightgbm.png"
+}
