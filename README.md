@@ -1,7 +1,7 @@
-# FRX-IDS: A Forensic-Ready Explainable Intrusion Detection Framework for Cyber Defense Analytics
+# FRX-IDS
 
 ## Reproducibility
-This repository contains the Jupyter notebook used for the analysis in the preparation of the latest manuscript version. The notebook `main_v3.ipynb` can be opened directly. 
+This repository contains the Jupyter notebook used for the analysis in the preparation of the latest manuscript version. The notebook `main_v4.ipynb` can be opened directly. 
 
 ## Outputs
 
