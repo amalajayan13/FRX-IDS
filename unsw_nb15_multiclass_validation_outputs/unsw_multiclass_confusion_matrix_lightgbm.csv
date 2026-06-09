@@ -1,0 +1,11 @@
+,pred_analysis,pred_backdoor,pred_dos,pred_exploits,pred_fuzzers,pred_generic,pred_normal,pred_reconnaissance,pred_shellcode,pred_worms
+true_analysis,151,428,50,25,0,0,23,0,0,0
+true_backdoor,150,380,34,10,2,0,2,0,5,0
+true_dos,309,2341,777,513,45,10,7,29,58,0
+true_exploits,486,2450,482,6967,155,19,64,339,164,6
+true_fuzzers,295,887,78,213,3824,6,407,8,344,0
+true_generic,9,26,83,319,48,18345,4,2,30,5
+true_normal,1332,0,107,569,10915,7,23749,7,312,2
+true_reconnaissance,25,278,37,150,13,3,9,2914,66,1
+true_shellcode,0,2,3,3,15,0,2,2,350,1
+true_worms,0,0,0,7,1,1,0,0,2,33

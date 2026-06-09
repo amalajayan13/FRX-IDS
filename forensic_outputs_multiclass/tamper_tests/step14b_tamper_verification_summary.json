@@ -1,0 +1,52 @@
+{
+  "original_log_path": "forensic_outputs_multiclass\\CASE-20260609-105354_evidence_multiclass.jsonl",
+  "record_count": 500,
+  "original_verification": {
+    "verified": true,
+    "first_bad_record": null,
+    "line_no": null,
+    "failure_reason": null,
+    "records_checked_before_failure": 500
+  },
+  "tamper_tests": [
+    {
+      "tamper_type": "field_modification",
+      "tampered_record_id": "CASE-20260609-105354-10",
+      "tampered_file": "forensic_outputs_multiclass\\tamper_tests\\tampered_field_modified.jsonl",
+      "verification_result": {
+        "verified": false,
+        "first_bad_record": "CASE-20260609-105354-10",
+        "line_no": 11,
+        "failure_reason": "record_hash_mismatch",
+        "records_checked_before_failure": 10
+      }
+    },
+    {
+      "tamper_type": "record_deletion",
+      "deleted_record_id": "CASE-20260609-105354-10",
+      "tampered_file": "forensic_outputs_multiclass\\tamper_tests\\tampered_record_deleted.jsonl",
+      "verification_result": {
+        "verified": false,
+        "first_bad_record": "CASE-20260609-105354-11",
+        "line_no": 11,
+        "failure_reason": "broken_prev_hash_link",
+        "records_checked_before_failure": 10
+      }
+    },
+    {
+      "tamper_type": "record_reordering",
+      "swapped_record_ids": [
+        "CASE-20260609-105354-10",
+        "CASE-20260609-105354-11"
+      ],
+      "tampered_file": "forensic_outputs_multiclass\\tamper_tests\\tampered_records_reordered.jsonl",
+      "verification_result": {
+        "verified": false,
+        "first_bad_record": "CASE-20260609-105354-11",
+        "line_no": 11,
+        "failure_reason": "broken_prev_hash_link",
+        "records_checked_before_failure": 10
+      }
+    }
+  ]
+}

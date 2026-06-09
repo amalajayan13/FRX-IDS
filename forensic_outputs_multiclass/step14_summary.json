@@ -1,0 +1,18 @@
+{
+  "best_model": "lightgbm",
+  "case_id": "CASE-20260609-105354",
+  "evidence_log_path": "forensic_outputs_multiclass\\CASE-20260609-105354_evidence_multiclass.jsonl",
+  "hash_algorithm": "SHA-256",
+  "test_samples_evaluated": 37887,
+  "predicted_alerts": 29476,
+  "predicted_normal_samples": 8411,
+  "alerts_retained_for_logging": 500,
+  "prediction_runtime_seconds": 1.6089317000005394,
+  "per_alert_shap_runtime_seconds": 2.4768420000036713,
+  "hash_chain_verified": true,
+  "first_bad_record": null,
+  "verification_runtime_seconds": 0.03492689999984577,
+  "final_chain_digest": "346a4b77b9405cb649bb009cf3f3993fe0be101c695c32561c1070353966779c",
+  "anchor_manifest_path": "forensic_outputs_multiclass\\CASE-20260609-105354_anchor_manifest.json",
+  "anchor_status": "not_externally_anchored_in_this_experiment"
+}

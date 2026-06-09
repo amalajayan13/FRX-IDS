@@ -1,0 +1,46 @@
+{
+  "dataset": "UNSW-NB15",
+  "task": "multiclass_external_validation",
+  "train_path": "../UNSW_NB15_training-set.csv",
+  "test_path": "../UNSW_NB15_testing-set.csv",
+  "official_train_test_split_preserved": true,
+  "target_column": "attack_cat",
+  "binary_label_used_only_for_normal_consistency": true,
+  "feature_train_shape": [
+    175341,
+    42
+  ],
+  "feature_test_shape": [
+    82332,
+    42
+  ],
+  "n_classes": 10,
+  "class_names": [
+    "analysis",
+    "backdoor",
+    "dos",
+    "exploits",
+    "fuzzers",
+    "generic",
+    "normal",
+    "reconnaissance",
+    "shellcode",
+    "worms"
+  ],
+  "label_mapping": {
+    "analysis": 0,
+    "backdoor": 1,
+    "dos": 2,
+    "exploits": 3,
+    "fuzzers": 4,
+    "generic": 5,
+    "normal": 6,
+    "reconnaissance": 7,
+    "shellcode": 8,
+    "worms": 9
+  },
+  "unseen_test_classes_not_in_train": [],
+  "train_classes_absent_from_test": [],
+  "distribution_csv": "unsw_nb15_multiclass_validation_outputs\\unsw_nb15_multiclass_train_test_distribution.csv",
+  "distribution_figure": "unsw_nb15_multiclass_validation_outputs\\figures\\unsw_nb15_multiclass_train_test_distribution.png"
+}

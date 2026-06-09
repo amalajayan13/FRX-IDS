@@ -1,0 +1,4 @@
+stage,items_processed,runtime_seconds,throughput_items_per_second,unit,scope_note
+prediction_and_probability_generation,37887,1.6089317000005394,23547.92313433025,test samples per second,Prediction and probability generation over the full ToN-IoT test partition.
+local_shap_explanation_for_retained_alerts,500,2.4768420000036713,201.8699618301284,retained alerts per second,Local SHAP explanations computed only for the top-confidence retained alerts.
+hash_chain_verification,500,0.03492689999984577,14315.613467047115,evidence records per second,Verification of the generated JSONL hash chain.

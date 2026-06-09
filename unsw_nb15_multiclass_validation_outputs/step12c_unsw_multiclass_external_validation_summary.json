@@ -1,0 +1,62 @@
+{
+  "dataset": "UNSW-NB15",
+  "task": "external multiclass validation",
+  "official_train_test_split_preserved": true,
+  "target_column": "attack_cat",
+  "normal_class_defined_from_binary_label": true,
+  "train_shape": [
+    175341,
+    42
+  ],
+  "test_shape": [
+    82332,
+    42
+  ],
+  "n_classes": 10,
+  "class_names": [
+    "analysis",
+    "backdoor",
+    "dos",
+    "exploits",
+    "fuzzers",
+    "generic",
+    "normal",
+    "reconnaissance",
+    "shellcode",
+    "worms"
+  ],
+  "models_evaluated": [
+    "logreg",
+    "rf",
+    "extratrees",
+    "lightgbm",
+    "xgboost"
+  ],
+  "best_model": "lightgbm",
+  "best_model_metrics": {
+    "model": "lightgbm",
+    "accuracy": 0.6982704173346936,
+    "balanced_accuracy": 0.6444975545282864,
+    "precision_macro": 0.5439215035724068,
+    "recall_macro": 0.6444975545282864,
+    "f1_macro": 0.5268790903489384,
+    "f1_weighted": 0.749010162941351,
+    "roc_auc_ovr_macro": 0.9561340226550019,
+    "roc_auc_ovr_weighted": 0.9689013062461613,
+    "top2_accuracy": 0.8863625321867561,
+    "top3_accuracy": 0.9306709420395471,
+    "fit_s": 12.059364500019,
+    "pred_s": 1.4479549000097904,
+    "pred_ms_per_sample": 0.017586781567431747,
+    "proba_s": 1.3879508999816608,
+    "proba_ms_per_sample": 0.016857976242307497
+  },
+  "prediction_file": "unsw_nb15_multiclass_validation_outputs\\predictions\\unsw_multiclass_test_predictions_all_models.csv",
+  "results_table": "unsw_nb15_multiclass_validation_outputs\\unsw_multiclass_external_validation_results.csv",
+  "per_class_table": "unsw_nb15_multiclass_validation_outputs\\unsw_multiclass_per_class_metrics_lightgbm.csv",
+  "confusion_matrix_csv": "unsw_nb15_multiclass_validation_outputs\\unsw_multiclass_confusion_matrix_lightgbm.csv",
+  "normalized_confusion_matrix_csv": "unsw_nb15_multiclass_validation_outputs\\unsw_multiclass_confusion_matrix_normalized_lightgbm.csv",
+  "confusion_matrix_figure": "unsw_nb15_multiclass_validation_outputs\\figures\\unsw_multiclass_confusion_matrix_lightgbm.png",
+  "normalized_confusion_matrix_figure": "unsw_nb15_multiclass_validation_outputs\\figures\\unsw_multiclass_confusion_matrix_normalized_lightgbm.png",
+  "comparison_figure": "unsw_nb15_multiclass_validation_outputs\\figures\\unsw_multiclass_model_comparison_macro_f1.png"
+}

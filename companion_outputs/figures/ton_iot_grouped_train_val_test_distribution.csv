@@ -1,0 +1,10 @@
+class_name,train,val,test
+backdoor,18618,93,0
+ddos,3330,16659,4
+dos,1313,17678,1
+injection,12111,7853,0
+normal,18419,16220,7401
+password,10198,9663,0
+ransomware,7537,7198,0
+scanning,11345,8655,0
+xss,15137,0,0

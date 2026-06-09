@@ -1,0 +1,13 @@
+{
+  "case_id": "CASE-20260609-105354",
+  "evidence_log_path": "forensic_outputs_multiclass\\CASE-20260609-105354_evidence_multiclass.jsonl",
+  "record_count": 500,
+  "hash_algorithm": "SHA-256",
+  "genesis_value": "GENESIS",
+  "final_chain_digest": "346a4b77b9405cb649bb009cf3f3993fe0be101c695c32561c1070353966779c",
+  "model_digest": "05c395849a5b455bed7da80b73ebb7b60900ffc0c9c960cc10206715559fa150",
+  "feature_schema_digest": "ea7826d3bc380cdecb84fe98e1857d9ad0ecbf653749c1bece711ab78df1b31c",
+  "created_utc": "2026-06-09T10:54:00.941565Z",
+  "anchor_status": "not_externally_anchored_in_this_experiment",
+  "anchor_note": "This manifest records the final digest of the generated hash chain. For stronger resistance against an insider who can rewrite the entire log, this digest would need to be stored externally, digitally signed, WORM-protected, notarized, or otherwise anchored outside the editable JSONL file."
+}

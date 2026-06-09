@@ -1,0 +1,85 @@
+{
+  "analysis_type": "stochastic_multiseed_lightgbm_diagnostic",
+  "seeds": [
+    7,
+    21,
+    42,
+    84,
+    168
+  ],
+  "stochastic_lgbm_params": {
+    "subsample": 0.8,
+    "subsample_freq": 1,
+    "colsample_bytree": 0.8
+  },
+  "diagnostic_note": "The earlier exact zero standard deviation across seeds is attributable to the deterministic LightGBM configuration in which row and feature sampling were inactive. This rerun activates subsample, subsample_freq, and colsample_bytree to evaluate seed sensitivity under stochastic training.",
+  "interpretation_scope": "This five-seed diagnostic estimates sensitivity to stochastic training configuration; it is not a full robustness or deployment-generalization proof.",
+  "multiclass_summary": [
+    {
+      "acc_mean": 0.9919391875841317,
+      "acc_std": 0.00012464136989595345,
+      "f1_macro_mean": 0.9908226788839819,
+      "f1_macro_std": 0.00013318704061566835,
+      "f1_weighted_mean": 0.9919432617756472,
+      "f1_weighted_std": 0.00012443610566964525,
+      "prec_macro_mean": 0.9906425739711666,
+      "prec_macro_std": 0.00012907736451460436,
+      "rec_macro_mean": 0.9910262019736692,
+      "rec_macro_std": 0.0001384551302662379,
+      "roc_auc_ovr_macro_mean": 0.9999034751751962,
+      "roc_auc_ovr_macro_std": 2.871201570260655e-06,
+      "fit_s_mean": 7.143874319997849,
+      "fit_s_std": 0.34558535485213937
+    }
+  ],
+  "binary_summary": [
+    {
+      "scenario": [
+        "95_5"
+      ],
+      "acc_mean": 0.9982815964523282,
+      "acc_std": 6.789051393526112e-05,
+      "f1_mean": 0.9847368695768477,
+      "f1_std": 0.0005941141781548476,
+      "precision_mean": 0.9699332007954553,
+      "precision_std": 0.0011533223836945642,
+      "recall_tpr_mean": 1.0,
+      "recall_tpr_std": 0.0,
+      "fpr_mean": 0.0018192488262910797,
+      "fpr_std": 7.187469902532799e-05,
+      "roc_auc_mean": 0.9999956220657277,
+      "roc_auc_std": 8.367565081203804e-07,
+      "pr_auc_mean": 0.999925506284041,
+      "pr_auc_std": 1.4189662114438735e-05,
+      "fit_s_mean": 0.9386695000051987,
+      "fit_s_std": 0.031042851178760687
+    },
+    {
+      "scenario": [
+        "99_1"
+      ],
+      "acc_mean": 0.9981902552204176,
+      "acc_std": 8.603478523311931e-05,
+      "f1_mean": 0.9275818449832371,
+      "f1_std": 0.0033036436799164653,
+      "precision_mean": 0.8657010008011363,
+      "precision_std": 0.004738010642009435,
+      "recall_tpr_mean": 0.999,
+      "recall_tpr_std": 0.0022360679774997916,
+      "fpr_mean": 0.0018192488262910797,
+      "fpr_std": 7.187469902532799e-05,
+      "roc_auc_mean": 0.9999896713615024,
+      "roc_auc_std": 1.765447060590692e-06,
+      "pr_auc_mean": 0.9991926656656535,
+      "pr_auc_std": 0.00011769053760088657,
+      "fit_s_mean": 0.9386695000051987,
+      "fit_s_std": 0.031042851178760687
+    }
+  ],
+  "plot_files": [
+    "multiseed_stochastic_lightgbm_outputs\\figures\\multiclass_macro_f1_by_seed.png",
+    "multiseed_stochastic_lightgbm_outputs\\figures\\multiclass_macro_f1_by_seed.pdf",
+    "multiseed_stochastic_lightgbm_outputs\\figures\\binary_pr_auc_by_seed.png",
+    "multiseed_stochastic_lightgbm_outputs\\figures\\binary_pr_auc_by_seed.pdf"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "case_id": "CASE-20260609-105354",
+  "evaluation_scope": "single_workstation_throughput_estimate_not_scalability_validation",
+  "test_samples_evaluated": 37887,
+  "retained_alert_records": 500,
+  "prediction_runtime_seconds": 1.6089317000005394,
+  "local_shap_runtime_seconds": 2.4768420000036713,
+  "hash_chain_verification_runtime_seconds": 0.03492689999984577,
+  "evidence_package_runtime_seconds_excluding_prediction": 2.511768900003517,
+  "evidence_package_throughput_records_per_second_excluding_prediction": 199.0628994567533,
+  "final_chain_digest": "346a4b77b9405cb649bb009cf3f3993fe0be101c695c32561c1070353966779c",
+  "anchor_status": "not_externally_anchored_in_this_experiment"
+}

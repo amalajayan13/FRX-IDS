@@ -1,0 +1,38 @@
+{
+  "dataset": "UNSW-NB15",
+  "task": "binary intrusion detection",
+  "train_shape": [
+    175341,
+    42
+  ],
+  "test_shape": [
+    82332,
+    42
+  ],
+  "models_evaluated": [
+    "logreg",
+    "rf",
+    "extratrees",
+    "lightgbm",
+    "xgboost"
+  ],
+  "best_model": "lightgbm",
+  "best_model_metrics": {
+    "model": "lightgbm",
+    "accuracy": 0.9078122722635185,
+    "precision": 0.8753928784563357,
+    "recall": 0.9707491396805789,
+    "f1": 0.9206083554737349,
+    "f1_macro": 0.9053535536599511,
+    "f1_weighted": 0.9068973398999604,
+    "roc_auc": 0.9852553449505271,
+    "average_precision": 0.9891226576222689,
+    "fit_s": 2.031431600014912,
+    "pred_s": 0.26568569999653846,
+    "pred_ms_per_sample": 0.003227004080995706
+  },
+  "prediction_file": "unsw_nb15_validation_outputs\\predictions\\unsw_test_predictions_all_models.csv",
+  "confusion_matrix_figure": "unsw_nb15_validation_outputs\\figures\\unsw_confusion_matrix_lightgbm.png",
+  "normalized_confusion_matrix_figure": "unsw_nb15_validation_outputs\\figures\\unsw_confusion_matrix_normalized_lightgbm.png",
+  "comparison_figure": "unsw_nb15_validation_outputs\\figures\\unsw_model_comparison_macro_f1.png"
+}

@@ -1,0 +1,79 @@
+{
+  "dataset": "UNSW-NB15",
+  "train_path": "../UNSW_NB15_training-set.csv",
+  "test_path": "../UNSW_NB15_testing-set.csv",
+  "train_shape": [
+    175341,
+    45
+  ],
+  "test_shape": [
+    82332,
+    45
+  ],
+  "feature_train_shape": [
+    175341,
+    42
+  ],
+  "feature_test_shape": [
+    82332,
+    42
+  ],
+  "target_column": "label",
+  "dropped_feature_columns": [
+    "id",
+    "label",
+    "attack_cat"
+  ],
+  "numeric_feature_count": 39,
+  "categorical_feature_count": 3,
+  "high_cardinality_categorical_columns": [
+    "proto"
+  ],
+  "low_mid_cardinality_categorical_columns": [
+    "service",
+    "state"
+  ],
+  "log_numeric_columns": [
+    "dur",
+    "spkts",
+    "dpkts",
+    "sbytes",
+    "dbytes",
+    "rate",
+    "sttl",
+    "dttl",
+    "sload",
+    "dload",
+    "sloss",
+    "dloss",
+    "sinpkt",
+    "dinpkt",
+    "sjit",
+    "djit",
+    "swin",
+    "stcpb",
+    "dtcpb",
+    "dwin",
+    "smean",
+    "dmean",
+    "trans_depth",
+    "response_body_len",
+    "ct_srv_src",
+    "ct_dst_ltm",
+    "ct_src_dport_ltm",
+    "ct_dst_sport_ltm",
+    "ct_dst_src_ltm",
+    "ct_flw_http_mthd",
+    "ct_src_ltm",
+    "ct_srv_dst"
+  ],
+  "non_log_numeric_columns": [
+    "tcprtt",
+    "synack",
+    "ackdat",
+    "ct_state_ttl",
+    "is_ftp_login",
+    "ct_ftp_cmd",
+    "is_sm_ips_ports"
+  ]
+}
