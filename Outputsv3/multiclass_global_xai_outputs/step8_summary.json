@@ -1,8 +1,0 @@
-{
-  "best_model": "lightgbm",
-  "n_transformed_features": 154,
-  "permutation_samples_used": 12000,
-  "permutation_scoring": "f1_macro",
-  "permutation_repeats": 5,
-  "permutation_time_seconds": 61.37548389998847
-}

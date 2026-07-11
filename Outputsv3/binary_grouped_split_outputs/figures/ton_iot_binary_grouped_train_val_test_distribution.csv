@@ -1,3 +1,0 @@
-class_name,train,val,test
-benign,26667,7944,7429
-attack,98017,28230,22187
