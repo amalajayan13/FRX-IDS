@@ -5,7 +5,7 @@ This repository contains the Jupyter notebook used for the analysis in the prepa
 
 ## Outputs
 
-The `outputsv3/` directory contains the results generated from executing the notebook.
+The directory contains the results generated from executing the notebook.
   
 ## Dataset
 https://research.unsw.edu.au/projects/toniot-datasets & 
